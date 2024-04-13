@@ -16,4 +16,6 @@ sentence1 = "在无机光电材料中，载流子主要通过光激发过程产�
 sentence2 = "无机光电材料中的载流子主要通过光激发生成"
 
 similarity = compute_cross_similarity(sentence1, sentence2)
-print(f"跨编码器语义相似度: {similarity}")
+print(f"SAS评分: {similarity}")
+
+
